@@ -1,11 +1,23 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "olexandr popov",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olexpopov/my_first_repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olexpopov/my_first_repo/issues"
+  },
+  "homepage": "https://github.com/olexpopov/my_first_repo#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "validator": "^10.8.0"
+  }
 }
